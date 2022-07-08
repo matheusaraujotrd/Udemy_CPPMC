@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
-
+/** A simple "Hello World" file using console input and output.
+**/
 int main() {
 std::string country;
 std::cout << "Where do you live?" << std::endl;
