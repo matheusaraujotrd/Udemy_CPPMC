@@ -36,10 +36,10 @@ int main() {
     //A third case for any invalid input
 
     {
-        std::cout << "Seleção inválida.";
+        std::cout << "Invalid selection.";
     }
-    std::cout << "Deseja continuar? \n";
-    std::cout << std::setw(10) << "1 - Sim" << std::setw(10) << "2 - Nao" << "\n";
+    std::cout << "Do you wish to continue? \n";
+    std::cout << std::setw(10) << "1 - Yes" << std::setw(10) << "2 - No" << "\n";
     std::cin >> continueselection;
     }
     return 0;
